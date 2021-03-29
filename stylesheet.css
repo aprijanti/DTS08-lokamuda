@@ -168,17 +168,28 @@ a {
     padding: 12px 24px;
     color: white;
     display: inline-block;
-    opacity: 10;
+    opacity: 1;
     border-radius: 4px;
 }
+
 .btn:hover {
-    opacity: 1;
+    opacity: 0.8;
   }
+
 .signup {
     background-color: #7cc576;
     font-family:"Futura Md BT";
     font-size: 50px;
+    cursor: pointer;
+    padding: 15px 40px;
 }
+
+.signup:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
 .btn-wrapper {
     margin-top: 20px;
     margin-bottom: 20px;
