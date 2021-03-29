@@ -145,3 +145,53 @@ footer {
     font-size: 30px;
     color: #2c5311;
 }
+
+body {
+    margin: 0;
+    font-family: "Bauhaus 93";
+    font-size: 80px;
+    line-height: 1;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 0 auto; 
+    margin-right: 0 auto;
+}
+.top-wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    background-image: url(https://daunmaple.com/wp-content/uploads/2019/11/iswanto-arif-u0lAovoUsaU-unsplash-1370x850.jpg);
+    background-size: cover;
+}
+.top-wrapper p {
+    opacity: 3;
+    margin-bottom: 5px;
+    font-family: "Futura Md BT";
+    font-size: 70px;
+    font-weight: 20;
+}
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 10;
+    border-radius: 4px;
+}
+.btn:hover {
+    opacity: 1;
+  }
+.signup {
+    background-color: #7cc576;
+    font-family:"Futura Md BT";
+    font-size: 50px;
+}
+.btn-wrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
